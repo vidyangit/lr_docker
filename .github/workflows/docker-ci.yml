@@ -28,4 +28,4 @@ jobs:
         run: docker run ml-devops-demo
 
       - name: Deploy Container
-        run: docker run devops-cd-demo
+        run: docker run ml-devops-demo
