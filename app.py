@@ -7,6 +7,7 @@ y = np.array([2, 4, 6, 8])
 
 model = LinearRegression()
 model.fit(X, y)
+print("Continuing to test the CI pipeline...")
 print("DevOps CI Pipeline Working Again")
 print("Coefficient:", model.coef_)
 print("Intercept:", model.intercept_)
